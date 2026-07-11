@@ -8,12 +8,12 @@
 
 /* ── 1. ARTICLES DATA ─────────────────────────────────────── */
 const articles = [
-  {
+{
     id: 1,
     title: 'Why Incentives Shape Human Behavior More Than We Admit',
     category: 'Economics',
     author: 'The Editor',
-    date: 'December 12, 2024',
+    date: 'June 29, 2026',
     readingTime: '9 min read',
     excerpt: 'Incentives are the gravitational fields of human action. We move toward rewards and away from costs—often without realising we are moving at all. This piece examines why understanding incentives is the single most important skill for understanding human institutions.',
     content: `<p>The economist Charlie Munger once said that he had never seen a person praised for recognising the power of incentives. It is, he observed, the most underappreciated variable in all of human reasoning. Everyone acknowledges that incentives matter. Few pause to consider the degree to which they govern nearly everything.</p>
@@ -36,7 +36,7 @@ const articles = [
     title: 'Understanding Opportunity Cost: The Price of Every Choice',
     category: 'Economics',
     author: 'The Editor',
-    date: 'November 28, 2024',
+    date: 'June 30, 2026',
     readingTime: '7 min read',
     excerpt: 'Every decision has a shadow: the alternative you did not choose. Opportunity cost is not merely an economist\'s abstraction but the single most important concept for evaluating how we spend the finite currency of our lives.',
     content: `<p>Frédéric Bastiat, the nineteenth-century French economist, distinguished between what is seen and what is unseen. The immediate effects of a decision are visible: you can point to them, count them, photograph them. The opportunity costs are invisible: they are the things that would have existed had you chosen differently.</p>
@@ -57,7 +57,7 @@ const articles = [
     title: 'The Mathematics of Voting Systems',
     category: 'Mathematics',
     author: 'The Editor',
-    date: 'November 14, 2024',
+    date: 'July 1, 2026',
     readingTime: '11 min read',
     excerpt: 'Arrow\'s Impossibility Theorem demonstrated that no voting system can simultaneously satisfy all the fairness criteria we intuitively expect. This is not a defect of any particular design but a mathematical truth about the nature of collective choice.',
     content: `<p>In 1951, the economist Kenneth Arrow proved something that should have been more disturbing than it was. He showed that there is no possible voting system that satisfies a small set of apparently reasonable fairness conditions all at once. This result, known as Arrow's Impossibility Theorem, is one of the most elegant and unsettling results in all of social science.</p>
@@ -78,7 +78,7 @@ const articles = [
     title: 'The Beauty of Mathematical Proof',
     category: 'Mathematics',
     author: 'The Editor',
-    date: 'October 30, 2024',
+    date: 'July 2, 2026',
     readingTime: '8 min read',
     excerpt: 'A mathematical proof is not merely a verification of truth. It is an explanation of why something must be true—a chain of necessity that eliminates all possible doubt. Understanding what makes a proof beautiful illuminates something deep about the nature of knowledge itself.',
     content: `<p>G.H. Hardy, the great English mathematician, claimed that there is no permanent place in mathematics for ugly mathematics. By "ugly" he meant something specific: a proof that simply establishes that something is true without explaining why it must be so. A beautiful proof, in Hardy's sense, does not merely verify. It illuminates.</p>
@@ -97,7 +97,7 @@ const articles = [
     title: 'How Algorithms Quietly Restructure Society',
     category: 'Technology',
     author: 'The Editor',
-    date: 'October 15, 2024',
+    date: 'July 3, 2026',
     readingTime: '10 min read',
     excerpt: 'Algorithms now govern who sees which jobs, which news, which credit offers, and which people. Understanding how they work—and how they fail—is no longer optional for an educated citizen of the modern world.',
     content: `<p>When the word "algorithm" first entered mainstream discourse, it was used primarily in its technical sense: a defined sequence of steps for solving a computational problem. Today it is used to describe something far more pervasive—the automated decision-making systems that increasingly determine the texture of everyday life.</p>
@@ -116,7 +116,7 @@ const articles = [
     title: 'Can Artificial Intelligence Actually Reason?',
     category: 'Computer Science',
     author: 'The Editor',
-    date: 'September 28, 2024',
+    date: 'July 4, 2026',
     readingTime: '12 min read',
     excerpt: 'Large language models produce outputs that look like reasoning. But appearance and reality are not the same thing. Examining what these systems do—and do not—do illuminates fundamental questions about the nature of intelligence itself.',
     content: `<p>The question sounds like philosophy. In practice, it is engineering. And the answer matters enormously—not only for understanding current AI systems, but for deciding how much trust to place in them, where to deploy them, and what kinds of problems they might actually help solve.</p>
@@ -135,7 +135,7 @@ const articles = [
     title: 'Game Theory Beyond the Classroom',
     category: 'Economics',
     author: 'The Editor',
-    date: 'September 12, 2024',
+    date: 'July 5, 2026',
     readingTime: '9 min read',
     excerpt: 'Game theory is taught as a set of elegant models. But its real power lies in what it teaches us about the structure of strategic situations—why cooperation is fragile, why arms races are self-defeating, and why the right institutional design can change outcomes without changing people.',
     content: `<p>The Prisoner's Dilemma is the most famous thought experiment in the history of the social sciences, and it has been told and retold so many times that it has acquired the dull familiarity of a well-worn proverb. Two prisoners, unable to communicate, each choose whether to betray the other or stay silent. If both stay silent, both get light sentences. If both betray, both get heavy ones. If one betrays and the other stays silent, the betrayer goes free and the silent one gets the worst sentence of all.</p>
@@ -154,7 +154,7 @@ const articles = [
     title: 'When Markets Fail and Why It Matters',
     category: 'Economics',
     author: 'The Editor',
-    date: 'August 27, 2024',
+    date: 'July 6, 2026',
     readingTime: '10 min read',
     excerpt: 'Markets are the most powerful mechanism for coordinating human activity that history has produced. But they fail in predictable ways. Understanding those failure modes is the prerequisite for thinking clearly about the proper role of the state.',
     content: `<p>The textbook market is a beautiful thing: a system in which prices aggregate dispersed information, guide resources to their most valued uses, and reward producers for satisfying the genuine preferences of consumers. Under the right conditions—competitive markets, clearly defined property rights, no externalities, perfect information—markets produce efficient outcomes with stunning regularity.</p>
@@ -175,7 +175,7 @@ const articles = [
     title: 'Learning Through First Principles',
     category: 'Essays',
     author: 'The Editor',
-    date: 'August 10, 2024',
+    date: 'July 7, 2026',
     readingTime: '7 min read',
     excerpt: 'Most learning is imitative. We learn by following conventions, adopting received wisdom, and copying the patterns of those who came before. First-principles thinking is the rarer and harder alternative: deriving understanding from the ground up rather than borrowing it.',
     content: `<p>Richard Feynman distinguished between two ways of knowing something. The first is knowing a name—knowing that the object is called a "sproggle," say, or an "electron," and knowing some standard things that are said about it. The second is understanding what it actually is and how it actually works—being able to reason about it from the inside, predict its behaviour in novel situations, and explain it in your own terms.</p>
@@ -196,7 +196,7 @@ const articles = [
     title: 'Probability in Everyday Decisions',
     category: 'Mathematics',
     author: 'The Editor',
-    date: 'July 22, 2024',
+    date: 'July 8, 2026',
     readingTime: '8 min read',
     excerpt: 'Human beings are notoriously poor probabilistic reasoners. Understanding why—and learning to correct for it—is among the most practically valuable things a person can do with a mathematics education.',
     content: `<p>In 1954, the psychologist Paul Meehl published a small book called Clinical versus Statistical Prediction, in which he reviewed twenty studies comparing the predictions of trained clinicians to simple statistical formulas. In seventeen of the twenty studies, the formulas performed as well as or better than the humans. This finding has since been replicated in hundreds of studies across dozens of domains, from predicting medical outcomes to forecasting judicial decisions to estimating the quality of wine vintages.</p>
@@ -215,7 +215,7 @@ const articles = [
     title: 'Data, Models, and the Limits of Reality',
     category: 'Computer Science',
     author: 'The Editor',
-    date: 'July 5, 2024',
+    date: 'July 9, 2026',
     readingTime: '9 min read',
     excerpt: 'All models are wrong. Some are useful. Understanding the gap between a model and the reality it represents is the fundamental epistemological task of quantitative reasoning—and one that most users of data consistently underestimate.',
     content: `<p>George Box's aphorism—"all models are wrong, but some are useful"—is one of the most widely quoted and least understood sentences in statistics. Its surface reading is easy: models are simplifications, simplifications introduce error, error is inevitable. But the deeper point is more interesting: the question to ask about a model is not whether it is true, but whether it is fit for purpose.</p>
@@ -234,7 +234,7 @@ const articles = [
     title: 'On the Value of Thinking Across Disciplines',
     category: 'Essays',
     author: 'The Editor',
-    date: 'June 18, 2024',
+    date: 'July 10, 2026',
     readingTime: '6 min read',
     excerpt: 'The best ideas often arrive at the borders between disciplines—where the vocabulary, methods, and assumptions of one field collide with those of another. Cultivating genuine interdisciplinary thinking is harder than it sounds and more valuable than it appears.',
     content: `<p>Specialisation is the engine of modern knowledge production. By going deep into a narrow domain, researchers can make progress that would be impossible for someone trying to hold all of knowledge in their head simultaneously. The division of intellectual labour has produced the modern world. There is no serious argument against its importance.</p>
@@ -255,7 +255,7 @@ const articles = [
     title: 'Why Markets Are More Random Than Most Investors Think',
     category: 'Quantitative Finance',
     author: 'The Editor',
-    date: 'July 2026',
+    date: 'July 11, 2026',
     readingTime: '12 min read',
     excerpt: 'An exploration of probability, randomness, and why financial markets are harder to predict than they appear.',
     content: `<p class="modal-subtitle"><em>An introduction to probability, volatility, and the limits of prediction in financial markets</em></p>
