@@ -384,6 +384,29 @@ const articles = [
 <p><em>This article is intended for educational purposes only and does not constitute investment advice or a recommendation to buy or sell any security.</em></p>`,
     featured: false,
   },
+  {
+    id: 14,
+    title: 'The Hidden Mathematics of Human Decisions: Why We Misjudge Risk',
+    category: 'Mathematics',
+    author: 'The Editor',
+    date: 'July 12, 2026',
+    readingTime: '4 min read',
+    excerpt: 'In the year after 9/11, fear pushed millions of travelers onto the road instead of into the air, and the resulting rise in traffic deaths outnumbered those on the four hijacked planes. Why the human mind handles uncertainty so badly—and what mathematics offers instead.',
+    content: `<p>In the year after September 11, 2001, a strange thing happened on American highways. Millions of travelers, spooked by the attacks, chose to drive rather than fly. The psychologist Gerd Gigerenzer later estimated that the resulting rise in road traffic cost roughly 1,600 additional lives—more people than died on the four hijacked planes combined. Flying had not become more dangerous. Driving had always been the riskier choice. What changed was not the math. What changed was fear, and fear did the arithmetic for us, badly.</p>
+
+<p>This is not a story about one bad year. It is a story about how the human mind handles uncertainty, which is to say: not well. We are quick to imagine a plane falling from the sky and slow to picture the thousand ordinary car trips that quietly kill far more people. Vivid scenarios crowd out common ones. A single shark attack reshapes a summer's worth of swimming decisions; a decade of unremarkable commutes changes nothing.</p>
+
+<p>Part of the trouble is that our intuitions evolved to answer a different question than the one modern life keeps asking. Early humans needed to react fast to visible, immediate threats—a rustle in the grass, a stranger at the fire. They did not need to compare the annual mortality rate of two transportation systems. So the brain reaches for shortcuts: if an outcome feels vivid or comes easily to mind, it must be likely. A recent scare looms larger than a decade of statistics. And because emotion is louder than calculation, dread crowds out data every time.</p>
+
+<p>Mathematics offers a corrective, not because it eliminates feeling, but because it gives feeling something to check itself against. The central tool is unglamorous: expected value, the average outcome you'd get if a decision were repeated many times, each result weighted by how likely it is. A lottery ticket that costs two dollars and offers a one-in-ten-million shot at ten million dollars has an expected value of one dollar. You are, on average, giving away money to buy a feeling. That doesn't make playing irrational exactly—people are allowed to pay for a daydream—but it does mean the decision should be understood as buying an experience, not a plausible payout.</p>
+
+<p>Probability distributions extend the same idea further. Instead of asking "will this happen," a distribution asks "across the whole range of things that could happen, how are the odds actually spread out?" Most real risks—market returns, weather, a new drug's side effects—don't have a single answer. They have a shape, with a bulk of likely outcomes and thinning tails of rare ones. Statistical thinking means training your attention on that shape rather than on the one dramatic tail event your mind keeps replaying.</p>
+
+<p>This reframing changes how good decision-makers actually operate. Investors who survive market cycles tend to think in ranges of outcomes and their odds, not in single confident forecasts. A venture capitalist expects most bets to fail and prices that into the portfolio rather than into each individual pitch. Machine learning systems, at bottom, are probability engines: a spam filter or a medical diagnostic tool isn't answering yes-or-no, it's assigning likelihoods and setting a threshold for action. Even mundane choices—whether to buy the extended warranty, how much to worry about a headache—improve once you ask what the range of outcomes looks like and how each one is weighted, instead of asking only what could possibly go wrong.</p>
+
+<p>None of this makes uncertainty disappear. That is the deeper point, and it cuts against the popular hope that enough data or enough modeling will someday remove risk from life. It won't. What mathematics offers instead is a way of standing inside uncertainty without being ruled by it—a set of habits for weighing a hundred futures at once rather than fixating on the one that frightens you most. The world stays unpredictable. What changes is whether you're reacting to it or reasoning through it.</p>`,
+    featured: false,
+  },
 ];
 
 /* ── 2. CATEGORIES DATA ───────────────────────────────────── */
@@ -914,3 +937,5 @@ function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+}
+
